@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm</title>
+    <style>
+        header{
+            background-color: brown;
+            height: 150px;
+        }
+        header h1{
+            text-align: center;
+            font-size: 64px;
+            color: white;
+            font-weight: bold;
+            padding-top: 30px;
+            margin-left: 25px;
+        }
+        nav{
+            height: 50px;
+            border: 1px solid white;
+            background-color: rgb(153, 74, 74);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        nav a{
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover{
+            background-color: white;
+            color: brown;
+            padding-block: 12px;
+        }
+        main{
+            min-height: 1000px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        main table{
+            border: 1px solid grey;
+            text-align: center;
+        }
+        main img{
+            height: 200px;
+        }
+        .hangsanpham{
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            width: 100%;
+        }
+        .muahang{
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        footer{
+            height: 130px;
+            color: white;
+            border: 1px solid brown;
+            background-color: brown;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        footer h2{
+            font-size: 14px;
+            text-align: center;
+        }
+        footer a{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Các loại đàn Piano tại Piano Store</h1>
+    </header>
+    <nav>
+        <a href="../index.html" target="_blank">Trang chủ</a>
+        <a href="./gioithieu.html" target="_blank">Giới thiệu</a>
+        <a href="./sanpham.html" target="_blank">Sản phẩm</a>
+        <a href="./lienhe.html" target="_blank">Liên hệ</a>
+    </nav>
+    <main>
+        <div class="hangsanpham">
+            
+        <table>
+            <tr>
+                <td>
+                    <img src="../IMG/piano-kawai-k-700.jpg" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Đàn Grand Piano <br>
+                    Kawai K700
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    79.000.000 VNĐ
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="muahang">
+                    <input type="button" value="Mua hàng" name="bntmuahang" onclick="alert('Bạn đã mua hàng thành công')">
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <img src="../IMG/piano-donner-DEP-1S-01.png" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Đàn Piano <br>
+                    Donner Dep-1S
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    4.590.000 VNĐ
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="muahang">
+                    <input type="button" value="Mua hàng" name="bntmuahang" onclick="alert('Bạn đã mua hàng thành công')">
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <img src="../IMG/kawai-gl-50.png" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Đàn Piano <br>
+                    Kawai GL-50
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    509.000.000 VNĐ
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="muahang">
+                    <input type="button" value="Mua hàng" name="bntmuahang" onclick="alert('Bạn đã mua hàng thành công')">
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <img src="../IMG/kawai-gx3.png" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Đàn Piano <br>
+                    Kawai GX-3
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    611.000.000 VNĐ
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="muahang">
+                    <input type="button" value="Mua hàng" name="bntmuahang" onclick="alert('Bạn đã mua hàng thành công')">
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <img src="../IMG/kawai-gx1.png" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Đàn Piano <br>
+                    Kawai GX-1
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    475.000.000 VNĐ
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="muahang">
+                    <input type="button" value="Mua hàng" name="bntmuahang" onclick="alert('Bạn đã mua hàng thành công')">
+                </td>
+            </tr>
+        </table>
+        </div>
+        <div class="hangsanpham">
+            <table>
+            <tr>
+                <td>
+                    <img src="../IMG/piano_2.webp" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Đàn Piano <br>
+                    Yamaha CLP-5
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    30.000.000 VNĐ
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="muahang">
+                    <input type="button" value="Mua hàng" name="bntmuahang" onclick="alert('Bạn đã mua hàng thành công')">
+                </td>
+            </tr>
+            </table>
+            <table>
+            <tr>
+                <td>
+                    <img src="../IMG/piano_3.jfif" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Đàn Piano <br>
+                    yamaha SU7
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    250.000.000 VNĐ
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="muahang">
+                    <input type="button" value="Mua hàng" name="bntmuahang" onclick="alert('Bạn đã mua hàng thành công')">
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <img src="../IMG/kawai-gl-10-Polished-Ebony-.webp" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Đàn Grand Piano <br>
+                    Kawai GL-10
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    146.000.000 VNĐ
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="muahang">
+                    <input type="button" value="Mua hàng" name="bntmuahang" onclick="alert('Bạn đã mua hàng thành công')">
+                </td>
+            </tr>
+        </table>
+        </div>
+    </main>
+    <footer>
+        <h2>
+            CÔNG TY CỔ PHẦN PIANO STORE <br>
+            Hotline: 0788765009 <br>
+            Cơ sở: 567 Nguyễn Huệ, Cao Lãnh, Đồng Tháp <br>
+            Website:
+            <br><br>
+            © Nguồn tham khảo: <a href="#">Cecilia</a>
+        </h2>
+    </footer>
+</body>
+</html>
